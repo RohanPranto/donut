@@ -165,8 +165,11 @@ section{
 .home .slides-container .slide .img{
     flex: 1 1 25rem;
     margin: 2rem 0;
-
 }
+
+/* img{
+   border-radius: 10px;
+} */
 .home .slides-container .slide .img img{
     width: 100%;
     height: 100%;

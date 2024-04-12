@@ -14,7 +14,7 @@
         <nav class="navbar">
             <a href="#"><b>Home</b></a>
             <a href="#"><b>Shop</b></a>
-            <a href="#"><b>About</b></a>
+            <a href="About.html"><b>About</b></a>
             <a href="#"><b>Review</b></a>
             <a href="#"><b>Contact</b></a>
         </nav>
@@ -32,8 +32,8 @@
             <div class="slide active">
                 <div class="content">
                     <span><b>WELCOME TO DOUGHNUTS HEAVEN</b><br>Have A Donut</span>
-                    <h3>upto 40% off</h3>
-                    <a href="#" class="btn">Shop Now</a>
+                    <h3>upto 41% off</h3>
+                    <a href="#product_id" class="btn">Shop Now</a>
                 </div>
                 <div class="img">
                     <img src="D4.png" alt="">
@@ -43,8 +43,8 @@
             <div class="slide">
                 <div class="content">
                     <span><b>WELCOME TO DOUGHNUTS HEAVEN</b><br>Have A Donut</span>
-                    <h3>upto 40% off</h3>
-                    <a href="#" class="btn">Shop Now</a>
+                    <h3>upto 42% off</h3>
+                    <a href="#product_id" class="btn">Shop Now</a>
                 </div>
                 <div class="img">
                     <img src="D2.png" alt="">
@@ -54,11 +54,11 @@
             <div class="slide">
                 <div class="content">
                     <span><b>WELCOME TO DOUGHNUTS HEAVEN</b><br> Have A Donut</span>
-                    <h3>upto 40% off</h3>
-                    <a href="#" class="btn">Shop Now</a>
+                    <h3>upto 43% off</h3>
+                    <a href="#product_id" class="btn">Shop Now</a>
                 </div>
                 <div class="img">
-                    <img src="Shop8.png" alt="">
+                    <img src="Shop8.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@
                 <div class="content">
                 <span><b>Limited Sales</b></span>
                 <h3>upto 45% off</h3>
-                <a href="#" class="btn">Shop Now</a>
+                <a href="#product_id" class="btn">Shop Now</a>
                 </div>
         </div>
 
@@ -79,8 +79,8 @@
                 <img src="Lim5.jpg" alt="">
                 <div class="content">
                 <span><b>Limited Sales</b></span>
-                <h3>upto 45% off</h3>
-                <a href="#" class="btn">Shop Now</a>
+                <h3>upto 46% off</h3>
+                <a href="#product_id" class="btn">Shop Now</a>
                 </div>
         </div>
 
@@ -88,8 +88,8 @@
                 <img src="Lim3.jpg" alt="">
                 <div class="content">
                 <span><b>Limited Sales</b></span>
-                <h3>upto 45% off</h3>
-                <a href="#" class="btn">Shop Now</a>
+                <h3>upto 47% off</h3>
+                <a href="#product_id" class="btn">Shop Now</a>
                 </div>
         </div>
     </section>
@@ -127,7 +127,7 @@
         </div>
     </section>
 
-    <section class="product">
+    <section id="product_id" class="product">
         <h1 class="title"><span>Our Category</span><a href="#">View All >></a></h1>
         <div class="box-container">
             <div class="box">
@@ -176,7 +176,12 @@
 
             <div class="box">
                 <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <!-- Add a form with a hidden input for the product ID -->
+                    <form action="add_to_cart.php" method="post">
+                        <input type="hidden" name="productID" value="1">
+                        <button type="submit" class="fas fa-shopping-cart"></button>
+                    </form>
+                    <!-- You can add other icons like heart, eye, etc. -->
                     <a href="#" class="fas fa-heart"></a>
                     <a href="#" class="fas fa-eye"></a>
                 </div>
