@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Donut Website</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> DONUTS</a>
+        <nav class="navbar">
+            <a href="#"><b>Home</b></a>
+            <a href="#"><b>Shop</b></a>
+            <a href="#"><b>About</b></a>
+            <a href="#"><b>Review</b></a>
+            <a href="#"><b>Contact</b></a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="slides-container">
+            <div class="slide active">
+                <div class="content">
+                    <span><b>WELCOME TO DOUGHNUTS HEAVEN</b><br>Have A Donut</span>
+                    <h3>upto 40% off</h3>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+                <div class="img">
+                    <img src="D4.png" alt="">
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <span><b>WELCOME TO DOUGHNUTS HEAVEN</b><br>Have A Donut</span>
+                    <h3>upto 40% off</h3>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+                <div class="img">
+                    <img src="D2.png" alt="">
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <span><b>WELCOME TO DOUGHNUTS HEAVEN</b><br> Have A Donut</span>
+                    <h3>upto 40% off</h3>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+                <div class="img">
+                    <img src="Shop8.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+        <div id="prev-slide" class="fas fa-angle-left" onclick="prev()"></div>
+    </section>
+    <section class="banner-container">
+        <div class="banner">
+                <img src="Lim4.jpg" alt="">
+                <div class="content">
+                <span><b>Limited Sales</b></span>
+                <h3>upto 45% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+                </div>
+        </div>
+
+        <div class="banner">
+                <img src="Lim5.jpg" alt="">
+                <div class="content">
+                <span><b>Limited Sales</b></span>
+                <h3>upto 45% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+                </div>
+        </div>
+
+        <div class="banner">
+                <img src="Lim3.jpg" alt="">
+                <div class="content">
+                <span><b>Limited Sales</b></span>
+                <h3>upto 45% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+                </div>
+        </div>
+    </section>
+    
+    <div class="heading">
+        <h1>Our Shop</h1>
+    </div>
+    <section class="category" id="category">
+        <h1 class="title"><span>Our Category</span><a href="#">View All >></a></h1> 
+        <div class="box-container">
+            <a href="#" class="box">
+                <img src="Choco.jpg" alt="">
+                <h3>Choco Donut</h3>
+            </a>
+
+            <a href="#" class="box">
+                <img src="Strawbery.jpg" alt="">
+                <h3>Strawbery Donut</h3>
+            </a>
+
+            <a href="#" class="box">
+                <img src="Creemy.jpg" alt="">
+                <h3>Creemy Donut</h3>
+            </a>
+
+            <a href="#" class="box">
+                <img src="Vanilla.jpg" alt="">
+                <h3>Vanilla Donut</h3>
+            </a>
+
+            <a href="#" class="box">
+                <img src="Combo.jpg" alt="">
+                <h3>Combo Donut</h3>
+            </a>
+        </div>
+    </section>
+
+    <section class="product">
+        <h1 class="title"><span>Our Category</span><a href="#">View All >></a></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img"> 
+                    <img src="W1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Filled Donut</h3>
+                    <div class="price">#35</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img"> 
+                    <img src="W2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Blue Berry Donut</h3>
+                    <div class="price">#35</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img"> 
+                    <img src="W3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Vanilla Donut</h3>
+                    <div class="price">#35</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img"> 
+                    <img src="W4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Chocolate Donut</h3>
+                    <div class="price">#35</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img"> 
+                    <img src="W5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Glazed Donut</h3>
+                    <div class="price">#35</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img"> 
+                    <img src="W6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Dark Forest Donut</h3>
+                    <div class="price">#35</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img"> 
+                    <img src="W7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>White Forest Donut</h3>
+                    <div class="price">#35</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img"> 
+                    <img src="W8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Baked Donut</h3>
+                    <div class="price">#35</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <div class="heading">
+        <h1>About Us</h1>
+    </div>
+    <section class="about">
+        <div class="img">
+            <img src="about.jpg" alt="">
+        </div>
+        <div class="content">
+            <span>Welcome to Our Products</span>
+            <h3>Happy Healos !</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi itaque ea sint. Alias tempore nisi autem voluptatum nihil accusantium, libero doloremque aperiam tempora dicta maiores quae laborum cupiditate aliquid consequatur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure quod, velit nihil animi voluptas dicta aut quia quaerat, laudantium autem pariatur necessitatibus minus facere ducimus facilis totam cumque numquam. Molestiae.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h1 class="title"><span>Our Gallery</span><a href="#">View All >></a></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="G1.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt"></a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="G2.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="G3.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="G4.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="G5.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="G6.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="heading">
+        <h1>Client's Review</h1>
+    </div>
+    <section class="info-container">
+
+        <div class="info">
+            <img src="User2.jpg" alt="">
+            <div class="content">
+                <h3>Fast Delivery</h3>
+                <span>within 30 minutes. Best quality in such a low price. Everyone should check out the shop. </span>
+            </div>
+        </div>
+
+        <div class="info">
+            <img src="User1.jpg" alt="">
+            <div class="content">
+                <h3>Easy Payment</h3>
+                <span>Really a great shop. Donuts are really tasty. It's really unbelieveable. </span>
+            </div>
+        </div>
+
+        <div class="info">
+            <img src="User2.jpg" alt="">
+            <div class="content">
+                <h3>Amazing</h3>
+                <span>24 / 7 available and quality is on high-level. And there are various types of donuts. </span>
+            </div>
+        </div>
+
+    </section>
+    <section class="review">
+
+        <div class="box">
+            <div class="user">
+                <img src="Songhrit.jpg" alt="">
+                <div class="info">
+                    <h3>Songhrit Majumder</h3>
+                    <span>Happy Client</span>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus laborum voluptas consequuntur minima quas odio modi, aspernatur illum explicabo magni suscipit! Officiis deleniti blanditiis sapiente adipisci quasi, vitae debitis!</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="Anish.jpg" alt="">
+                <div class="info">
+                    <h3>Anish Chatterjee</h3>
+                    <span>Happy Client</span>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus laborum voluptas consequuntur minima quas odio modi, aspernatur illum explicabo magni suscipit! Officiis deleniti blanditiis sapiente adipisci quasi, vitae debitis!</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="User1.jpg" alt="">
+                <div class="info">
+                    <h3>Debjit Sarkar</h3>
+                    <span>Happy Client</span>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus laborum voluptas consequuntur minima quas odio modi, aspernatur illum explicabo magni suscipit! Officiis deleniti blanditiis sapiente adipisci quasi, vitae debitis!</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="Souvik.jpg" alt="">
+                <div class="info">
+                    <h3>Souvik Dey</h3>
+                    <span>Happy Client</span>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus laborum voluptas consequuntur minima quas odio modi, aspernatur illum explicabo magni suscipit! Officiis deleniti blanditiis sapiente adipisci quasi, vitae debitis!</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="User1.jpg" alt="">
+                <div class="info">
+                    <h3>Rohit</h3>
+                    <span>Happy Client</span>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus laborum voluptas consequuntur minima quas odio modi, aspernatur illum explicabo magni suscipit! Officiis deleniti blanditiis sapiente adipisci quasi, vitae debitis!</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="User1.jpg" alt="">
+                <div class="info">
+                    <h3>Edward Bey</h3>
+                    <span>Happy Client</span>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus laborum voluptas consequuntur minima quas odio modi, aspernatur illum explicabo magni suscipit! Officiis deleniti blanditiis sapiente adipisci quasi, vitae debitis!</p>
+        </div>
+    </section>
+
+    <div class="heading">
+        <h1>Contact Us</h1>
+    </div>
+    <section class="contact">
+        <div class="icons-container">
+
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>Our Number</h3>
+                <p>+91 111-222-3333</p>
+                <p>+91 444-555-6666</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>Our Email</h3>
+                <p>anishchatto2002@gmail.com</p>
+                <p>xyzanish007@gmail.com</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Our Address</h3>
+                <p>CHAKDAHA - NADIA - WEST BENGAL - INDIA</p>
+            </div>
+        </div>
+        <div class="row">
+            <form action="">
+                <h3>Get in Touch</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="Enter Your Name" class="box">
+                    <input type="text" placeholder="Enter Your Email" class="box">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="Enter Your Number" class="box">
+                    <input type="text" placeholder="Enter Your Subject" class="box">
+                </div>
+                <textarea placeholder="Your Message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+            <iframe class="map" src=""></iframe>
+        </div>
+    </section>
+
+    <div class="space"></div>
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#"><b><i class="fas fa-arrow-right"></i> Home</b></a>
+                <a href="#"><b><i class="fas fa-arrow-right"></i> Shop</b></a>
+                <a href="#"><b><i class="fas fa-arrow-right"></i> About</b></a>
+                <a href="#"><b><i class="fas fa-arrow-right"></i> Review</b></a>
+                <a href="#"><b><i class="fas fa-arrow-right"></i> Contact</b></a>
+            </div>
+
+            <div class="box">
+                <h3>Extra Links</h3>
+                <a href="#"><b><i class="fas fa-arrow-right"></i> My Order</b></a>
+                <a href="#"><b><i class="fas fa-arrow-right"></i> My Favourite</b></a>
+                <a href="#"><b><i class="fas fa-arrow-right"></i> My Wishlist</b></a>
+                <a href="#"><b><i class="fas fa-arrow-right"></i> My Account</b></a>
+                <a href="#"><b><i class="fas fa-arrow-right"></i> Terms of Use</b></a>
+            </div>
+
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#"><b><i class="fa-brands fa-facebook"></i> Facebook</b></a>
+                <a href="#"><b><i class="fa-brands fa-twitter"></i> Twitter</b></a>
+                <a href="#"><b><i class="fa-brands fa-instagram"></i> Instagram</b></a>
+                <a href="#"><b><i class="fa-brands fa-linkedin"></i> Linkedin</b></a>
+                <a href="#"><b><i class="fa-brands fa-youtube"></i> YouTube</b></a>
+            </div>
+
+            <div class="box">
+                <h3>News Letters</h3>
+                <p>Subscribe for Latest Update</p>
+                <form action="">
+                    <input type="email" placeholder="Enter Your Email Address">
+                    <input type="submit" value="Subscribe" class="btn">
+                </form>
+                <img src="" class="Payements" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
